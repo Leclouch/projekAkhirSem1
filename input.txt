@@ -1,0 +1,10 @@
+1|Nasi Goreng|15000|20
+2|Mie Ayam|12000|25
+3|Soto Ayam|18000|15
+4|Lumpia|8000|30
+5|Tahu Goreng|5000|40
+6|Perkedel|4000|35
+7|Es Teh Manis|3000|50
+8|Es Jeruk|3500|45
+9|Kopi Panas|5000|20
+10|Roti Bakar|10000|12
