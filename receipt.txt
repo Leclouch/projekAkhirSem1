@@ -1,9 +1,8 @@
 === STRUK PEMBELIAN ===
 ID Transaksi: 1
 ========================
-1. Nasi Goreng x10 @ Rp15000 = Rp150000
-2. Soto Ayam x1 @ Rp18000 = Rp18000
-3. Es Jeruk x10 @ Rp3500 = Rp35000
+1. Nasi Goreng x2 @ Rp15000 = Rp30000
+2. Tahu Goreng x21 @ Rp5000 = Rp105000
 ========================
-Total: Rp203000
+Total: Rp135000
 ========================
