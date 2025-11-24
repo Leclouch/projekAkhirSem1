@@ -99,6 +99,9 @@ public:
     // Mengedit menu item yang sudah ada
     void editMenu() {
         int id;
+
+        tampilMenu();  // Tampilkan menu terlebih dahulu
+
         cout << "ID menu yang ingin diedit: ";
         cin >> id;
         
@@ -139,7 +142,7 @@ public:
 
     // Menampilkan semua menu items dengan format yang rapi
     void tampilMenu() {
-        cout << "=== Daftar Menu ===\n";
+        cout << "\n=== Daftar Menu ===\n";
         
         // Loop melalui semua menu dan tampilkan dengan format tertentu
         for (auto &m : menu) {
