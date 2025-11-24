@@ -1,0 +1,7 @@
+=== STRUK PEMBELIAN ===
+ID Transaksi: 2
+Menu: EsTeh
+Harga: Rp5000
+Jumlah: 3
+Total: Rp15000
+=======================
