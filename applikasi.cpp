@@ -77,7 +77,9 @@ public:
         m.id = nextMenuId++;  // Berikan ID otomatis dan increment untuk menu berikutnya
         
         // Minta input dari user
-        cout << "Nama menu: "; cin >> m.name;
+        cout << "Nama menu: "; 
+        cin.ignore();  // Bersihkan buffer input
+        getline(cin, m.name);  // Gunakan getline untuk membaca nama dengan spasi
         cout << "Harga: "; cin >> m.price;
         cout << "Stok: "; cin >> m.stock;
         
@@ -95,7 +97,9 @@ public:
         for (auto &m : menu) {
             if (m.id == id) {
                 // Tampilkan nilai lama dalam kurung dan minta input baru
-                cout << "Nama baru (" << m.name << "): "; cin >> m.name;
+                cout << "Nama baru (" << m.name << "): "; 
+                cin.ignore();  // Bersihkan buffer input
+                getline(cin, m.name);  // Gunakan getline untuk membaca nama dengan spasi
                 cout << "Harga baru (" << m.price << "): "; cin >> m.price;
                 cout << "Stok baru (" << m.stock << "): "; cin >> m.stock;
                 cout << "Menu diperbarui.\n";
@@ -126,7 +130,7 @@ public:
 
     // Menampilkan semua menu items dengan format yang rapi
     void tampilMenu() {
-        cout << "=== Daftar Menu ===\n";
+        cout << "\n=== Daftar Menu ===\n";
         
         // Loop melalui semua menu dan tampilkan dengan format tertentu
         for (auto &m : menu) {
